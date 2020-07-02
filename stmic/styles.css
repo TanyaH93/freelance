@@ -1,0 +1,587 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.body {
+	background-image: url(Img/Homepagemob.jpg);
+}
+
+.container {
+	font-family: 'Open Sans', sans-serif;
+}
+.banner_img {
+	display: block;
+}
+
+.banner {
+	margin: auto;
+	position: relative;
+}
+
+.overlay_black {
+	background-color: rgba(0, 0, 0, 0.4);
+	display: block;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
+
+@media (min-width: 375px) and (max-width: 1919px) {
+	.overlay_black {
+		height: 812px;
+	}
+}
+@media (min-width: 1920px) {
+	.overlay_black {
+		height: 945px;
+	}
+
+	.header {
+		display: flex;
+		align-items: center;
+		padding-top: 37px;
+		margin-left: 60px;
+	}
+
+	.menu_burger {
+		display: none;
+	}
+
+	.menu_list {
+		display: flex;
+		list-style: none;
+		color: rgba(255, 255, 255, 0.6);
+		font-weight: 600;
+		font-size: 18px;
+		margin-left: 50px;
+	}
+
+	.menu_list--item {
+		margin-right: 50px;
+	}
+
+	.investors {
+		background-color: transparent;
+		color: white;
+		border: none;
+		font-size: 18px;
+		font-weight: 600;
+	}
+
+	.banner_title {
+		font-size: 75px;
+		font-weight: 800;
+		color: white;
+		margin-top: 140px;
+		margin-left: 190px;
+		letter-spacing: -0.05em;
+	}
+
+	span {
+		display: block;
+	}
+
+	.video {
+		display: flex;
+		align-items: center;
+		margin-left: 185px;
+		margin-top: 60px;
+	}
+
+	.icon_video {
+		background-color: white;
+		padding: 25px;
+		border-radius: 50%;
+	}
+
+	.link_video {
+		color: white;
+		font-size: 18px;
+		font-weight: 300;
+		margin-left: 28px;
+	}
+
+	.calc_block {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+
+	.calc_block--link {
+		background-color: #34652f;
+		width: 548px;
+		height: 340px;
+		margin-top: -206px;
+		padding-top: 28px;
+		padding-left: 28px;
+	}
+
+	.img-calc {
+		width: 409px;
+		height: 212px;
+	}
+
+	.calculator {
+		display: flex;
+		justify-content: space-between;
+		width: 409px;
+		align-items: center;
+		margin-top: 20px;
+	}
+
+	.link_calc {
+		font-size: 18px;
+		color: white;
+		text-decoration: none;
+		margin-left: 20px;
+		letter-spacing: 0.2em;
+		font-weight: 300;
+	}
+
+	.structure_block {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 228px;
+		color: #707070;
+		margin-left: 185px;
+	}
+
+	.structure_title {
+		text-transform: uppercase;
+		font-size: 75px;
+		font-weight: 800;
+		width: 535px;
+	}
+
+	.structure_content {
+		width: 813px;
+		font-size: 20px;
+		margin-top: 20px;
+		margin-left: -25px;
+		line-height: 1.5em;
+	}
+
+	.structure_text {
+		margin-bottom: 40px;
+	}
+
+	.structure_link {
+		margin-left: 190px;
+		font-size: 24px;
+		margin-top: 20px;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.more_link {
+		color: #191b1e;
+		text-decoration: none;
+		letter-spacing: 0.15em;
+	}
+
+	.we_do {
+		display: flex;
+		margin-top: 269px;
+	}
+
+	.we_do--content {
+		width: 960px;
+		height: 948px;
+		background-color: #447141;
+	}
+
+	.we_do--img {
+		display: block;
+		width: 960px;
+		height: 948px;
+	}
+
+	.we_do--block {
+		width: 541px;
+		margin-top: 235px;
+		margin-left: 190px;
+		color: white;
+	}
+
+	.we_do--title {
+		font-size: 60px;
+		letter-spacing: -0.05em;
+		margin-bottom: 20px;
+	}
+	.we_do--cont {
+		font-size: 20px;
+		line-height: 1.7em;
+		margin-bottom: 10px;
+	}
+
+	.link--wedo {
+		color: white;
+		font-size: 24px;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.mortgage {
+		display: flex;
+		flex-direction: row-reverse;
+		background-color: #f0f5f9;
+	}
+
+	.mortgage_block {
+		width: 960px;
+		height: 948px;
+	}
+
+	.mortgage--img {
+		display: block;
+		width: 960px;
+		height: 948px;
+	}
+
+	.mortgage_section {
+		width: 619px;
+		margin-top: 75px;
+		margin-left: 168px;
+	}
+
+	.mortgage_title {
+		font-size: 60px;
+		font-weight: 600;
+		line-height: 1.5em;
+		letter-spacing: 0.02em;
+		margin-bottom: 16px;
+	}
+
+	.mortgage_content {
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 1.7em;
+		margin-bottom: 50px;
+	}
+
+	.mortgage_text {
+		margin-bottom: 20px;
+	}
+
+	.link_mortgage {
+		font-size: 24px;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.plans {
+		display: flex;
+	}
+
+	.plans_content {
+		width: 960px;
+		height: 948px;
+		background-color: #f0f5f9;
+	}
+
+	.plans_block {
+		width: 541px;
+		margin-top: 270px;
+		margin-left: 190px;
+	}
+
+	.plans_title {
+		font-size: 60px;
+		font-weight: 800;
+		margin-bottom: 25px;
+		letter-spacing: -0.05em;
+	}
+
+	.plans_text {
+		font-size: 20px;
+		margin-bottom: 20px;
+		line-height: 1.7em;
+	}
+
+	.link_plans {
+		font-size: 24px;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.funds {
+		background-image: url(Img/funds.png);
+		width: 960px;
+		height: 948px;
+		background-size: cover;
+	}
+
+	.overlay_white {
+		background-color: rgba(255, 255, 255, 0.85);
+		width: 960px;
+		height: 948px;
+	}
+
+	.funds_block {
+		padding-top: 240px;
+		margin-left: 110px;
+	}
+
+	.funds_list {
+		list-style: none;
+	}
+	.funds_tittle {
+		font-size: 20px;
+		text-transform: uppercase;
+		color: #868a8c;
+		margin-bottom: 40px;
+		letter-spacing: 0.17em;
+	}
+
+	.fund_item {
+		background-color: white;
+
+		width: 711px;
+		height: 109px;
+		margin-bottom: 35px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 30px;
+	}
+
+	.fund_tittle {
+		font-size: 24px;
+		font-weight: 800;
+	}
+
+	.funds_link {
+		width: 195px;
+		height: 58px;
+		border-radius: 30px;
+		background-color: #34652f;
+		color: white;
+		text-decoration: none;
+		font-size: 18px;
+		font-weight: 300;
+		letter-spacing: 0.12em;
+		text-align: center;
+		line-height: 3;
+	}
+
+	.invest {
+		background-color: #f0f5f9;
+		padding-top: 70px;
+		padding-bottom: 43px;
+	}
+
+	.Invest_title {
+		font-size: 60px;
+		font-weight: 800;
+		color: #707070;
+		margin-bottom: 30px;
+		letter-spacing: -0.05em;
+		text-align: center;
+	}
+
+	.invest_list {
+		list-style: none;
+		display: flex;
+		justify-content: center;
+		margin-top: 70px;
+	}
+
+	.invest_list--item {
+		width: 511px;
+		height: 474px;
+		background-color: #f8f9f9;
+		padding-top: 50px;
+		padding-left: 60px;
+	}
+
+	.invest_list--item:not(:last-child) {
+		margin-right: 40px;
+	}
+
+	.description {
+		width: 627px;
+		font-size: 18px;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.invest_item--title {
+		font-size: 24px;
+		font-weight: 800;
+		letter-spacing: -0.07em;
+		margin-bottom: 30px;
+	}
+
+	.invest_text {
+		width: 393px;
+		line-height: 2;
+		font-size: 18px;
+	}
+
+	.pagination {
+		display: flex;
+		list-style: none;
+		align-items: center;
+		justify-content: center;
+		width: 511px;
+		margin: 0 auto;
+		padding-top: 130px;
+	}
+
+	.pagination_item {
+		width: 7px;
+		height: 7px;
+		border-radius: 50%;
+		background-color: rgba(0, 0, 0, 0.3);
+	}
+
+	.pagination_item:not(:last-child) {
+		margin-right: 15px;
+	}
+
+	.left {
+		margin-right: 160px;
+	}
+
+	.right {
+		margin-left: 160px;
+	}
+
+	.contacts {
+		display: flex;
+		flex-direction: row-reverse;
+		/* margin-top: 173px; */
+	}
+
+	.contact_block {
+		margin-top: 130px;
+		margin-left: 125px;
+	}
+
+	.contacts_image {
+		display: block;
+	}
+
+	.contacts_content {
+		width: 960px;
+		height: 948px;
+		background-color: #34652f;
+	}
+
+	.contacts_title {
+		color: white;
+		font-size: 60px;
+		font-weight: 800;
+		letter-spacing: -0.05em;
+		margin-bottom: 20px;
+	}
+
+	.description-contact {
+		width: 474px;
+		font-size: 20px;
+		color: white;
+		margin-bottom: 55px;
+	}
+
+	.subject-item {
+		background-color: transparent;
+		border: none;
+		font-size: 24px;
+		font-weight: 800;
+		color: white;
+	}
+
+	.subject:after {
+		content: '';
+		display: block;
+		width: 564px;
+		height: 2px;
+		background-color: rgba(255, 255, 255, 0.1);
+		margin-top: 10px;
+		margin-bottom: 35px;
+	}
+
+	.input {
+		width: 564px;
+		background-color: rgba(255, 255, 255, 0.1);
+		border: none;
+		border-radius: 30px;
+	}
+
+	.input-mail {
+		height: 60px;
+		margin-bottom: 10px;
+	}
+
+	.input-message {
+		height: 160px;
+	}
+
+	.input_placeholder {
+		color: rgba(255, 255, 255, 0.5);
+		font-size: 14px;
+		margin-bottom: 5px;
+		margin-left: 15px;
+	}
+
+	.btn {
+		display: block;
+		margin-top: 45px;
+		width: 240px;
+		height: 60px;
+		border-radius: 30px;
+		background-color: rgba(255, 255, 255, 0.1);
+		border: none;
+		color: white;
+		font-weight: 600;
+		font-size: 20px;
+	}
+
+	.footer {
+		background-color: #171b1e;
+		display: flex;
+		color: white;
+		height: 78px;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 75px;
+	}
+
+	.footer_list {
+		display: flex;
+		list-style: none;
+		font-size: 12px;
+		color: rgba(255, 255, 255, 0.5);
+		letter-spacing: 0.05em;
+	}
+
+	.footer_link:not(:last-child) {
+		margin-right: 25px;
+	}
+
+	.social_list {
+		display: flex;
+		list-style: none;
+	}
+
+	.sociai_list--item:not(:last-child) {
+		margin-right: 65px;
+	}
+
+	.footer_contact {
+		font-weight: 800;
+		font-size: 16px;
+	}
+
+	.footer_left {
+		display: flex;
+		align-items: center;
+	}
+
+	.licension {
+		font-size: 16px;
+		font-weight: 600;
+		margin-right: 70px;
+	}
+}
